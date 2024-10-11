@@ -10,7 +10,7 @@ return {
     },
     config = function()
         require('neogit').setup {
-            kind = 'vsplit',
+            kind = 'split',
             integrations = {
                 telescope = true,
                 diffview = true,
