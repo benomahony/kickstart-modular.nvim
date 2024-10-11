@@ -10,4 +10,9 @@ return {
         'echasnovski/mini.pick', -- optional
     },
     config = true,
+    keys = {
+        { '<leader>g', ':Neogit<CR>', desc = 'Neogit' },
+        { '<leader>gc', ':Neogit commit<CR>', desc = 'Neogit Commit' },
+        { '<leader>gp', ':Neogit push<CR>', desc = 'Neogit Push' },
+    },
 }
