@@ -11,7 +11,7 @@ return {
     config = true,
     kind = 'auto',
     keys = {
-        { '<leader>g', ':Neogit kin<CR>', desc = 'Neogit' },
+        { '<leader>g', ':Neogit<CR>', desc = 'Neogit' },
         { '<leader>gc', ':Neogit commit<CR>', desc = 'Neogit Commit' },
         { '<leader>gp', ':Neogit push<CR>', desc = 'Neogit Push' },
     },
