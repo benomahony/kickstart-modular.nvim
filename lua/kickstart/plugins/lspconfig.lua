@@ -240,7 +240,29 @@ return {
             local servers = {
                 -- clangd = {},
                 -- gopls = {},
-                ruff_lsp = {},
+                ruff = {
+                    on_attach = function(client, bufnr)
+                        -- Enable formatting on save
+                        if client.supports_method 'textDocument/formatting' then
+                            vim.api.nvim_create_autocmd('BufWritePre', {
+                                buffer = bufnr,
+                                callback = function()
+                                    vim.lsp.buf.format {
+                                        async = false,
+                                        bufnr = bufnr,
+                                    }
+                                end,
+                            })
+                        end
+                    end,
+                    settings = {
+                        -- Ruff settings
+                        args = {
+                            '--line-length=100', -- Adjust as needed
+                        },
+                    },
+                },
+
                 rust_analyzer = {},
                 -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
                 --
