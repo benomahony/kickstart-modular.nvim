@@ -1,3 +1,4 @@
+-- TODO: get friendly snippets
 return {
     { -- Autocompletion
         'hrsh7th/nvim-cmp',

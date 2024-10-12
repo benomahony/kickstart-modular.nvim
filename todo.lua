@@ -1,0 +1,8 @@
+--This is where the todos with no home yet live
+-- TODO: Add in pytest handling to display test results in line
+-- TODO: Add in bindings to make it easy to run tests on demand - https://github.com/nvim-neotest/neotest-python
+-- TODO: Explore scaffolding tests with snippets (and maybe GenAI)
+-- TODO: Explore nice integration with uv for environment stuff
+-- TODO: Explore kubectl from nvim https://github.com/Ramilito/kubectl.nvim_lsp
+-- TODO: Explore replacing neo tree with oil.nvim https://github.com/stevearc/oil.nvim
+--
