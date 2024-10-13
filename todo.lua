@@ -5,6 +5,6 @@
 -- TODO: Explore nice integration with uv for environment stuff
 -- TODO: Explore kubectl from nvim https://github.com/Ramilito/kubectl.nvim_lsp
 -- TODO: Explore replacing neo tree with oil.nvim https://github.com/stevearc/oil.nvim
--- TODO: Explore dadbod for SQL
 -- TODO: Explore Markdown docs to ensure they work
 -- TODO: Add auto session manager
+-- TODO: Add Noice for ui improvements
